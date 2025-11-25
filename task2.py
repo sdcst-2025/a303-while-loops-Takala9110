@@ -29,3 +29,18 @@ Access granted
 
 
 """
+print("Enter Username and Password")
+correct_user = "admin"
+correct_pass = "12345"
+
+user = ""
+password = ""
+
+while user != correct_user or correct_pass != password:
+    user = input("username:")
+    password = input("password:")
+
+    if user == correct_user and password == correct_pass:
+        print("access granted")
+    else:
+        print("access denied")

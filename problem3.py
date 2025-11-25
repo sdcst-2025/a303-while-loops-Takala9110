@@ -13,3 +13,17 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+a, b = 1, 1
+
+print("this is the febonacci sequence:")
+print(a)
+print(b)
+
+while True:
+    X = a + b
+    if X > 100:
+        break
+
+    print(X)
+    a,b = b, X
