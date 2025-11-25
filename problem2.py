@@ -23,5 +23,5 @@ num = int(input("enter a num"))
 i = 1
 
 while i <= 12:
-    print(num * i,end="")
-    i+=1
+    print(num * i,end=' ')
+    i+= 1
